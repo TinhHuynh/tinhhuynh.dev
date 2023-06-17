@@ -91,7 +91,7 @@ analytics:
 author:
   name             : "Tinh Huynh"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Just another mobile developer..."
+  bio              : "Chỉ là một thằng mobile dev...\n\nNhững bài post viết từ kiến thức, kinh nghiệm cá nhân hạn hẹp nên có thể thiếu sót, vui lòng đóng góp mang tính xây dựng. Xin cảm ơn :)"
   location         : "Ho Chi Minh City, Vietnam"
   links:
     - label: "GitHub"
