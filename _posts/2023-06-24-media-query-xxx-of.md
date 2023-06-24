@@ -2,7 +2,8 @@
 title: "Flutter: Update mới từ MediaQuery mà bạn nên biết🔥🔥🔥"
 excerpt: "MediaQuery.of(context).xxx không an toàn như bạn nghĩ. 💀"
 categories:
-  - Flutter, Programming
+  - Flutter
+  - Progamming
 tags:
   - flutter
   - programming
@@ -57,7 +58,7 @@ class SizeText extends StatelessWidget {
 
 Như bạn thấy trong gif, mình thay đổi light mode/dark mode (`platformBrightness`) thì `SizeText` bị rebuild mặc dù nó chỉ sử dụng thuộc tính `size` thôi. Từ ví dụ này chúng ta thấy rằng `MediaQuery` đang gây ra việc rebuild UI ko cần thiết như thế nào, đặc biệt tệ hơn nếu đó chúng ta widget với widget tree đồ sộ và phức tạp.
 
-Để giải quyết vấn đề này, `MediaQuery` phiên bản Flutter **3.10** đã cho ra mắt những method mới:
+Để giải quyết vấn đề này, `MediaQuery` ơ Flutter phiên bản **3.10** đã cho ra mắt những method mới:
 ```dart
 // kích thước màn hình
  MediaQuery.sizeOf(context)
@@ -101,7 +102,7 @@ class SizeText extends StatelessWidget {
 </figure>
 
 
-Okay! widget không bị rebuild 😄. À nếu bạn replace method cũ sang method mới ở trong code thì nên **hot restart** thay vì hot load nhé, vì hot load thì cái đăng kí lắng nghe `MediaQuery` cũ của widget vẫn còn, và widget sẽ vẫn bị rebuild. Mình đã tốn gần 1-2 tiếng để nhận ra điều này 😢
+Okay! widget không bị rebuild sau khi sử dụng `MediaQuyery.sizeOf(context)` 😄. À nếu bạn replace method cũ sang method mới ở trong code thì nên **hot restart** thay vì hot load nhé, vì hot load thì cái đăng kí lắng nghe `MediaQuery` cũ của widget vẫn còn, và widget sẽ vẫn bị rebuild. Mình đã tốn gần 1-2 tiếng để nhận ra điều này 😢
 
 ### Cheatsheet
 <figure>
@@ -110,15 +111,17 @@ Okay! widget không bị rebuild 😄. À nếu bạn replace method cũ sang me
 </figure>
 
 ### Bonus
-Khi mình tìm hiểu về `MediaQuery` thì nhận ra implement bằng `InheritedWidget` - một đề tài yêu thích của mình. Các thư viện state management phổ biến như `Bloc`, `Provider` đều base từ `InheritedWidget`. Chưa kể trong cheatsheet trên có đề cập `InheritedModel` - giúp các widget có thể lắng một phần data từ `InheritedWidget`. Chắc chắc mình sẽ có bài viết về 2 class này. Hãy chờ nhé 😄
+Khi mình tìm hiểu về `MediaQuery` thì nhận ra là class này được implement bằng `InheritedWidget` - một chủ đề yêu thích của mình. Các thư viện state management phổ biến như `Bloc`, `Provider` đều base từ `InheritedWidget`. Chưa kể trong cheatsheet trên có đề cập `InheritedModel` - giúp các widget có thể lắng nghe một phần data cụ thể từ `InheritedWidget`. Chắc chắc mình sẽ có bài viết về 2 class này. Hãy chờ nhé 😄
 
 ### Kết luận
-Việc sử dụng những method mới của `MediaQuery` trong các dự án Flutter của bạn có thẻ giúp việc render UI hiệu quả hơn, performance sẽ được cải thiện hơn, mang lại trải nghiệm người dụng mượt mà và nhanh nhạy hơn. 
 
-Well, đó là tất cả những gì mình muốn truyền tải trong bài viết này. Chúc bạn viết code vui vẻ!
+Well, đó là tất cả những gì mình muốn truyền tải trong bài viết này. Việc sử dụng những method mới của `MediaQuery` trong các dự án Flutter của bạn có thẻ giúp việc render UI hiệu quả hơn, performance sẽ được cải thiện hơn, mang lại trải nghiệm người dụng mượt mà và nhanh nhạy hơn. 
+
+Happy coding !!! 
+
 
 ### Tham khảo
 
 * [Learnfluttertogether](https://www.facebook.com/flutterwithrehan/posts/pfbid0A9ArxYJeT682fAyoXLe8VY22ezDE63YRRFtzbgMUP7zz9UUeDH7YFW3UnkurXqsfl)
 * [MediaQuery class](https://api.flutter.dev/flutter/widgets/MediaQuery-class.html)
-* [The most important Flutter 3.10 feature that nobody talks about](https://api.flutter.dev/flutter/widgets/MediaQuery-class.html)
+* [The most important Flutter 3.10 feature that nobody talks about](https://medium.com/itnext/the-most-important-flutter-3-10-feature-that-nobody-talks-about-1cc575a6063f)
