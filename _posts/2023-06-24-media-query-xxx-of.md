@@ -1,6 +1,6 @@
 ---
-title: "Flutter: Update mới từ MediaQuery mà bạn nên biết🔥🔥🔥"
-excerpt: "MediaQuery.of(context).xxx không an toàn như bạn nghĩ. 💀"
+title: "Flutter 3.10: Sử dụng MediaQuery 1 cách hiệu quả"
+excerpt: "Update hữu ích từ MediaQuery trong Flutter 3.10. Bài viết này sẽ hướng dẫn bạn cách sử dụng MediaQuery một cách thông minh và giảm thiểu việc rebuild không cần thiết, giúp ứng dụng của bạn chạy mượt mà hơn bao giờ hết."
 categories:
   - Flutter
   - Progamming
