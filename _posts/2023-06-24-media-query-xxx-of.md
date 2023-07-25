@@ -8,6 +8,8 @@ tags:
   - flutter
   - programming
   - ui responsive
+  - MediaQuery
+  - performance
 ---
 
 Khi phát triển ứng dụng trên Flutter, sẽ không tránh khỏi những trường hợp mà ta cần biết thông tin về màn hình của thiết bị như: kích thước, mật độ điểm ảnh, orientation, dark mode,...Và Flutter cung cấp class `MediaQuery` để hỗ trợ lập trình viên trong việc này. 
