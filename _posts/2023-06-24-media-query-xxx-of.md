@@ -3,7 +3,7 @@ title: "Flutter 3.10: Sử dụng MediaQuery 1 cách hiệu quả"
 excerpt: "1 update hữu ích từ MediaQuery trong Flutter 3.10 giúp giảm thiểu việc rebuild không cần thiết, cải thiện sự mượt mà của ứng dụng."
 categories:
   - Flutter
-  - Progamming sự mượt mà
+  - Progamming
 tags:
   - flutter
   - programming
