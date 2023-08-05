@@ -1,6 +1,8 @@
 ---
 title: "Flutter: InheritedWidget và InheritedModel"
 excerpt: "Cùng nhau tìm hiểu về InheritedWidget và InheritedModel - 1 trong những phương pháp state management phổ biến."
+seo_title: "Flutter: InheritedWidget và InheritedModel - Phương pháp state management phổ biến"
+seo_description: "Tìm hiểu về InheritedWidget và InheritedModel - 2 trong những phương pháp state management phổ biến trong lập trình Flutter. Xem cách sử dụng chúng để truyền và quản lý data hiệu quả giữa các widget con và tránh rebuild UI không cần thiết." 
 categories:
   - Flutter
   - Programming
