@@ -3,7 +3,7 @@ title: "Flutter 3.10: Sử dụng MediaQuery 1 cách hiệu quả"
 excerpt: "1 update hữu ích từ MediaQuery trong Flutter 3.10 giúp giảm thiểu việc rebuild không cần thiết, cải thiện sự mượt mà của ứng dụng."
 categories:
   - Flutter
-  - Progamming
+  - Programming
 tags:
   - flutter
   - programming
@@ -55,7 +55,7 @@ class SizeText extends StatelessWidget {
 ```
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}\assets\gifs\2023-06-24-media-query-xxx-of-gif-1.gif">
+  <img src="{{ site.url }}{{ site.baseurl }}\assets\gifs\2023-06-24-media-query-xxx-of-gif-1.gif" style="width:250px;height:400px;">
 </figure>
 
 Như bạn thấy trong gif, mình thay đổi light mode/dark mode (`platformBrightness`) thì `SizeText` bị rebuild mặc dù nó chỉ sử dụng thuộc tính `size` thôi. Từ ví dụ này chúng ta thấy rằng `MediaQuery` đang gây ra việc rebuild UI ko cần thiết như thế nào, đặc biệt tệ hơn nếu đó chúng ta widget với widget tree đồ sộ và phức tạp.
@@ -100,7 +100,7 @@ class SizeText extends StatelessWidget {
 
 ```
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}\assets\gifs\2023-06-24-media-query-xxx-of-gif-2.gif">
+  <img src="{{ site.url }}{{ site.baseurl }}\assets\gifs\2023-06-24-media-query-xxx-of-gif-2.gif" style="width:250px;height:400px;">
 </figure>
 
 
