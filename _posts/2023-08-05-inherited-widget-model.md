@@ -181,7 +181,7 @@ class _ThemeHomePageState extends State<ThemeHomePage> {
 
 Ok hãy chạy ứng dụng lên thử nhé!
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}\assets\gifs\2023-08-05-inherited-widget-model-1.gif">
+  <img src="{{ site.url }}{{ site.baseurl }}\assets\gifs\2023-08-05-inherited-widget-model-1.gif" style="width:250px;height:450px;">
 </figure>
 
 Như bạn thấy trong gif, mỗi lần mình click vào 2 button để update data cho `ThemeModel` thì `ThemeModeText` và `FontSizeText` sẽ được rebuild (background đổi màu), trong khi đó `IdontCareWidget` không thay đổi vì không phụ thuộc vào `ThemeModel` để render UI. Qua demo này, chúng ta thấy rằng việc sử dụng `InheritedWidget` mang lại những lợi ích về performance trong việc render UI của ứng dụng cũng như trải nghiệm người dùng khi mà nó notify data cho những widget con nào thực sự cần và tránh được việc rebuild UI không cần thiết.
@@ -281,7 +281,7 @@ Qua đoạn code trên, ta đơn giản chỉ gọi `ThemeModel.of(context, aspe
 Ok, hãy chạy lại ứng dụng xem nhé!
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}\assets\gifs\2023-08-05-inherited-widget-model-2.gif">
+  <img src="{{ site.url }}{{ site.baseurl }}\assets\gifs\2023-08-05-inherited-widget-model-2.gif" style="width:250px;height:450px;">
 </figure>
 
 Như trong gif ta có thể thấy, `FontSizeText` và `ThemeModeText` rebuild UI khi phần data tương ứng thay đổi, không chung đụng gì với nhau. Vậy là ta có thể thấy `InheritedModel` hữu ích như thế nào khi vừa có lợi ích của `InheritedWidget`: pass data tới widget con 1 cách hiệu quả, và đảm bảo các widget con rebuild UI đúng theo phần data mà nó cần.
