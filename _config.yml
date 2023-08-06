@@ -59,7 +59,7 @@ algolia:
   powered_by             : # true
 
 # SEO Related
-google_site_verification :
+google_site_verification : "rL8pEox8X6KA9-qnjeJNc9CGgW77KCMyphqSsut7gD0"
 bing_site_verification   :
 yandex_site_verification :
 
@@ -100,7 +100,9 @@ author:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/tinh-huynh-39a37b146"
-
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:tinhhuynh.dev@gmail.com"
 
 # Site Footer
 footer:
@@ -111,6 +113,9 @@ footer:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/tinh-huynh-39a37b146"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:tinhhuynh.dev@gmail.com"
 
 
 # Reading Files
