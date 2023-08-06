@@ -53,10 +53,10 @@ search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : "lunr"
 algolia:
-  application_id         : "QB6HVGBSBA"
-  index_name             : "dev_minimal-mistakes"
-  search_only_api_key    : "9d5014e5bbc77372547bce778dfa5663"
-  powered_by             : true
+  application_id         : # "QB6HVGBSBA"
+  index_name             : # "dev_minimal-mistakes"
+  search_only_api_key    : #"9d5014e5bbc77372547bce778dfa5663"
+  powered_by             : # true
 
 # SEO Related
 google_site_verification :
@@ -65,7 +65,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "mmistakes"
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -110,8 +110,7 @@ footer:
       url: "https://github.com/TinhHuynh"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/tinh-huynh-hu%E1%BB%B3nh-t%E1%BB%8Bnh-39a37b146"
-
+      url: "https://www.linkedin.com/in/tinh-huynh-39a37b146"
 
 
 # Reading Files
@@ -260,6 +259,7 @@ defaults:
       read_time: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
