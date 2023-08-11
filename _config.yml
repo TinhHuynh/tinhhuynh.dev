@@ -9,7 +9,7 @@ remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 # Site Settings
 locale                   : "vi-VN"
-title                    : "tinhHuynh.dev()"
+title                    : "tinhHuynh.dev"
 title_separator          : "-"
 subtitle                 : "person.class:26:5: error: expected social life"
 name                     : "Tinh Huynh"
@@ -91,7 +91,7 @@ analytics:
 author:
   name             : "Tinh Huynh"
   avatar           : "/assets/images/bio-photo.png"
-  bio              : "Chỉ là một thằng mobile dev...\n\nNhững bài post viết từ kiến thức, kinh nghiệm cá nhân hạn hẹp nên có thể thiếu sót, vui lòng đóng góp mang tính xây dựng. Xin cảm ơn :)"
+  bio              : "Software developer, Android, Flutter, Updating..."
   location         : "Ho Chi Minh City, Vietnam"
   links:
     - label: "GitHub"
