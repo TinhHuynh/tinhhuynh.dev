@@ -276,6 +276,7 @@ GEM
     unf_ext (0.0.8.2)
     unicode-display_width (1.8.0)
     verbal_expressions (0.1.5)
+    wdm (0.1.1)
     webrick (1.8.1)
 
 PLATFORMS
@@ -287,6 +288,7 @@ DEPENDENCIES
   jekyll-algolia (~> 1.0)
   jekyll-include-cache
   minimal-mistakes-jekyll (~> 4.24.0)
+  wdm (~> 0.1.0)
   webrick (~> 1.8)
 
 BUNDLED WITH
