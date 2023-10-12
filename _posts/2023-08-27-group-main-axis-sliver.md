@@ -17,7 +17,7 @@ tags:
 
 ### I. Mở đầu
 
-Mới đây [Flutter 3.10](https://medium.com/flutter/whats-new-in-flutter-3-13-479d9b11df4d) mới ra mắt, mang đến nhiều sự nâng cấp cũng như cải thiện đáng kể như render engine `Impeller` cho iOS, support foldable, dialog + Material widgetS,...và cho ra mắt 1 vài widget sliver hữu ích như `SliverMainAxisGroup`, `SliverCrossAxisGroup`,...Đối với `SliverMainAxisGroup`, chắc chắc lập trình viên sẽ tiết kiệm nhiều thời gian trong việc viết sticky header animation để tăng trải nghiệm người dùng.
+Mới đây [Flutter 3.13](https://medium.com/flutter/whats-new-in-flutter-3-13-479d9b11df4d) mới ra mắt, mang đến nhiều sự nâng cấp cũng như cải thiện đáng kể như render engine `Impeller` cho iOS, support foldable, dialog + Material widgetS,...và cho ra mắt 1 vài widget sliver hữu ích như `SliverMainAxisGroup`, `SliverCrossAxisGroup`,...Đối với `SliverMainAxisGroup`, chắc chắc lập trình viên sẽ tiết kiệm nhiều thời gian trong việc viết sticky header animation để tăng trải nghiệm người dùng.
 
 <figure>
   <img src="{{ site.url }}{{ site.baseurl }}\assets\gifs\2023-08-27-group-main-axis-sliver.gif" style="width:250px;height:450px;">
