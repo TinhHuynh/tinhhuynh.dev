@@ -12,4 +12,4 @@ gem "github-pages", "~> 228", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
 gem "webrick", "~> 1.8"
 
-gem "nokogiri", ">= 2.9.6"
+gem "nokogiri", ">= 1.15.4"

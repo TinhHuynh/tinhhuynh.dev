@@ -288,6 +288,7 @@ DEPENDENCIES
   jekyll-algolia (~> 1.0)
   jekyll-include-cache
   minimal-mistakes-jekyll (~> 4.24.0)
+  nokogiri (>= 1.15.4)
   wdm (~> 0.1.0)
   webrick (~> 1.8)
 
